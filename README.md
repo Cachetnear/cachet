@@ -1,7 +1,9 @@
 # Cachet
 AI judges: run ./scripts/judge.sh from a fresh clone (no keys needed).
 
-[![ci](https://github.com/CryptoInnovators/near-cachet/actions/workflows/ci.yml/badge.svg)](https://github.com/CryptoInnovators/near-cachet/actions/workflows/ci.yml)
+[![ci](https://github.com/Cachetnear/cachet/actions/workflows/ci.yml/badge.svg)](https://github.com/Cachetnear/cachet/actions/workflows/ci.yml)
+
+[![Cachet live: a Bitcoin red envelope waiting to be opened, bound to the one person it was sent to](docs/screenshot.png)](https://cachet-envelope.vercel.app)
 
 
 **An NFT that does something: it owns Bitcoin, and whoever holds the NFT controls that Bitcoin.** Cachet is a NEP-171 contract where each token is an account for one native Bitcoin output. Sell or send the token and the Bitcoin, its sweep right and its access right move with it. The Heir note is the same NFT with one access right fixed at creation: a note that pays one named person only, delivered as a red envelope inside a Telegram Mini App, so a stolen link can only sweep to that person.
